@@ -118,15 +118,17 @@
                     <enableFastdev>false</enableFastdev>
                     <!-- See here for an explanation of default instructions: -->
                     <!-- https://developer.atlassian.com/docs/advanced-topics/configuration-of-instructions-in-atlassian-plugins -->
+<!--
                     <instructions>
                         <Atlassian-Plugin-Key>${atlassian.plugin.key}</Atlassian-Plugin-Key>
-                        <!-- Add package to export here -->
+                        &lt;!&ndash; Add package to export here &ndash;&gt;
                         <Export-Package>net.atlassian.woohyeok.plugins.api,</Export-Package>
-                        <!-- Add package import here -->
+                        &lt;!&ndash; Add package import here &ndash;&gt;
                         <Import-Package>org.springframework.osgi.*;resolution:="optional", org.eclipse.gemini.blueprint.*;resolution:="optional", *</Import-Package>
-                        <!-- Ensure plugin is spring powered -->
+                        &lt;!&ndash; Ensure plugin is spring powered &ndash;&gt;
                         <Spring-Context>*</Spring-Context>
                     </instructions>
+-->
                 </configuration>
             </plugin>
             <plugin>

@@ -75,8 +75,4 @@ public class MoneyCustomField extends AbstractSingleFieldType<BigDecimal> {
     protected Object getDbValueFromObject(final BigDecimal customFieldObject) {
         return getStringFromSingularObject(customFieldObject);
     }
-
-
-
-
 }
